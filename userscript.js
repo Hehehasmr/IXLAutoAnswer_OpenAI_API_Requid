@@ -61,7 +61,7 @@
         language: localStorage.getItem("myIxLLang") || "en",
         mode: "displayOnly", // can be "autoFill" or "displayOnly"
         autoSubmit: false,
-        totalTokens: 0,
+        totalTokens: 100000,
         lastState: null
     };
 
